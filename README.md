@@ -1,4 +1,4 @@
-# 🔮 CodeGenie — Your AI-Powered Coding Companion in VS Code 🪄
+# 🌟 CodeGenie — Your AI-Powered Coding Companion in VS Code🌟
 
 CodeGenie is your personal coding genie — living right inside VS Code!  
 It listens to your prompt (like _“Create a Flask login API”_), thinks deeply, and writes syntactically correct, context-aware code — in real time.
