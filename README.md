@@ -1,44 +1,80 @@
-# ✨ CodeGenie — Your AI-Powered Coding Companion
+# 🔮 CodeGenie — Your AI-Powered Coding Companion in VS Code 🪄
 
-_CodeGenie_ is a smart VS Code extension that serves as your personal code assistant. Just type a prompt like “Write a Python class for a linked list,” and CodeGenie instantly generates accurate, syntax-aware code — right inside your editor.
+CodeGenie is your personal coding genie — living right inside VS Code!  
+It listens to your prompt (like _“Create a Flask login API”_), thinks deeply, and writes syntactically correct, context-aware code — in real time.
 
-Built using the powerful **DeepSeek Coder** model and optimized for **GPU-based inference**, CodeGenie brings intelligence, speed, and convenience to your development workflow.
+> Powered by the blazing-fast DeepSeek Coder model and GPU inference, CodeGenie helps you code smarter, not harder.
 
-## 🎯 Purpose
+---
 
-Modern developers often struggle with repetitive coding, boilerplate, and context switching. CodeGenie solves this by offering:
-- Natural language to code generation
-- Inline suggestions and autocompletion
-- A fast, local, and privacy-safe coding assistant
+## 🖥️ Purpose
 
-Whether you're prototyping, learning, or building full-scale projects — CodeGenie helps you code faster and smarter.
+Modern developers waste time on:
 
-## 🛠️ Tech Stack
+- Repetitive code
+- Switching between docs and editors
+- Writing boilerplate again and again
 
-| Component      | Technology                           |
-|----------------|--------------------------------------|
-| Extension UI   | VS Code WebView (HTML, JS, CSS)      |
-| Extension Core | TypeScript (VS Code API)             |
-| Backend API    | Python Flask                         |
-| AI Model       | DeepSeek Coder 1.3B Instruct         |
-| Acceleration   | Local GPU (NVIDIA RTX 4090)          |
+**CodeGenie solves all this with:**
 
-## 🧠 Architecture
+- 🔌 Instant **natural language to code** conversion
+- 👻 **Inline ghost text** suggestions
+- ⌨️ **Autocompletions** with context
+- 🔒 **100% local**, privacy-first setup
 
-**Flow Overview:**
+Whether you’re **learning**, **prototyping**, or **shipping**, CodeGenie speeds up your workflow like a true dev companion.
 
-1. User types a prompt in VS Code (e.g., “Create a REST API using Flask”)
-2. Prompt is passed to the WebView frontend
-3. The extension backend sends the prompt to a local Flask server
-4. Flask routes the prompt into DeepSeek Coder for inference (on GPU)
-5. Generated code is returned and displayed in the chat UI
+---
+
+## ⚙️ Tech Stack
+
+| Component        | Technology                          |
+|------------------|--------------------------------------|
+| 🧩 Extension Core | TypeScript (VS Code API)             |
+| 🖼️ UI             | WebView (HTML + JS + CSS)            |
+| 🧠 Backend        | Python Flask                         |
+| 🤖 AI Model       | DeepSeek Coder 1.3B Instruct         |
+| ⚡ Acceleration   | Local GPU (NVIDIA RTX 4090)          |
+
+---
+
+📎 **Workflow:**
+
+1. You type a prompt in the CodeGenie panel (or code editor).
+2. The extension sends it to the Flask backend.
+3. The backend routes it into **DeepSeek Coder**.
+4. Generated code is returned and:
+   - Shown in the WebView 🪟
+   - OR inserted inline 👻
+   - OR used for autocompletion ⌨️
+
+📦 **Everything runs locally**  
+No external API calls. No rate limits. Full speed & privacy.
+
+---
+
+## 🚀 Why CodeGenie Stands Out
+
+🧞‍♂️ **Personified Experience**  
+Unlike other tools, CodeGenie feels like a true _assistant_, not just an autocomplete.
+
+🛡️ **Fully Offline & Secure**  
+No data leaves your machine. Ideal for private codebases or learning environments.
+
+🔌 **Multi-mode Assistance**  
+Supports **WebView UI**, **Inline Ghost Text**, and **Autocomplete Triggers**.
+
+💡 **Lightweight & Customizable**  
+Built using simple, extensible tools — perfect for learning, hacking, or expanding.
+
+---
 
 **Technically:**
 - Everything runs locally
 - Fast round-trip from prompt → model → code
 - Optimized for real-world use with zero external API dependency
 
-
+## 🧭 Architecture
   <p align="center">
   <img src="architecture.jpg" alt="CodeGenie Architecture" style="max-width: 100%; height: auto;">
 </p>
@@ -60,7 +96,7 @@ RISHITA - [View](https://drive.google.com/file/d/1bTwDQSmYYd9vbuuYqLhpiTxREzWEEc
 SAHITHYA - [View](https://drive.google.com/file/d/1mJbF7ozxCLQqvw7FyljnopEK5JDOJiM8/view)<br>
 DHARANI - [View](https://drive.google.com/file/d/18MQOjsWTWK4gLkTqF9GcNsz8dPn5Kjnb/view)
 
-## 👥 Contributors
+## 👩‍💻 Contributors
 
 - Rishita
 - Sahithya
@@ -72,5 +108,8 @@ DHARANI - [View](https://drive.google.com/file/d/18MQOjsWTWK4gLkTqF9GcNsz8dPn5Kj
 - Debugging hints based on errors
 - Model switching for different code languages
 - Code explanation and documentation generation
+
+> 🧞‍♂️ **CodeGenie** isn't just a tool — it’s your magical coding partner inside VS Code.  
+Let it handle the boring stuff so you can focus on building cool things.
 
 ---
