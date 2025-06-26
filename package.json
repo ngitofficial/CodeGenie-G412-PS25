@@ -1,41 +1,34 @@
 {
   "name": "codegenie",
   "displayName": "CodeGenie",
-  "description": "AI companion for effortless code creation",
-  "version": "0.0.1",
+  "description": "VSCode extension for AI-powered code generation, debugging, and autocompletion",
+  "version": "1.0.0",
+  "publisher": "your-name",
   "engines": {
-    "vscode": "^1.99.0"
+    "vscode": "^1.75.0"
   },
-  "categories": [
-    "Other"
+  "categories": ["Other"],
+  "activationEvents": [
+    "onCommand:codegenie.run"
   ],
-  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension.showPromptBox",
+        "command": "codegenie.run",
         "title": "CodeGenie"
       }
     ]
   },
   "scripts": {
-    "vscode:prepublish": "npm run compile",
+    "vscode:prepublish": "tsc -p ./",
     "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
-    "pretest": "npm run compile && npm run lint",
-    "lint": "eslint src",
-    "test": "vscode-test"
+    "watch": "tsc -watch -p ./"
   },
   "devDependencies": {
-    "@types/vscode": "^1.99.0",
-    "@types/mocha": "^10.0.10",
-    "@types/node": "20.x",
-    "@typescript-eslint/eslint-plugin": "^8.31.1",
-    "@typescript-eslint/parser": "^8.31.1",
-    "eslint": "^9.25.1",
-    "typescript": "^5.8.3",
-    "@vscode/test-cli": "^0.0.10",
-    "@vscode/test-electron": "^2.5.2"
-  }
+    "@types/vscode": "^1.75.0",
+    "typescript": "^4.9.5",
+    "@types/node": "^18.15.11"
+  },
+  "dependencies": {}
 }
