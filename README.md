@@ -94,15 +94,18 @@ This makes it ideal for VS Code extensions and real-time coding assistance.
 
 ## 🎥 Milestone Videos
 
-RISHITA - [View](https://drive.google.com/file/d/1bTwDQSmYYd9vbuuYqLhpiTxREzWEEck9/view)<br>
-SAHITHYA - [View](https://drive.google.com/file/d/1mJbF7ozxCLQqvw7FyljnopEK5JDOJiM8/view)<br>
-DHARANI - [View](https://drive.google.com/file/d/18MQOjsWTWK4gLkTqF9GcNsz8dPn5Kjnb/view)
+| Name     | Milestone 1                                 | Milestone 2 | PPT                                                      |
+|----------|---------------------------------------------|-------------|-----------------------------------------------------------|
+| Rishita  | [View](https://drive.google.com/file/d/1bTwDQSmYYd9vbuuYqLhpiTxREzWEEck9/view) |- | |
+| Sahithya | [View](https://drive.google.com/file/d/1mJbF7ozxCLQqvw7FyljnopEK5JDOJiM8/view) | - |  |
+| Dharani  | [View](https://drive.google.com/file/d/18MQOjsWTWK4gLkTqF9GcNsz8dPn5Kjnb/view) | - | |
+
 
 ## 👩‍💻 Contributors
 
-- Rishita
-- Sahithya
-- Dharani
+- [Rishita](https://github.com/Rishita300)
+- [Sahithya](https://github.com/Sahithya1804)
+- [Dharani](https://github.com/Dharani-1510)
 
 ## 🌱 Future Enhancements
 
