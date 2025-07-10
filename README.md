@@ -39,7 +39,9 @@ Whether you’re **learning**, **prototyping**, or **shipping**, CodeGenie speed
 ---
 
 📎 **Workflow:**
-
+<p align="center">
+  <img src="images/Workflow.png" alt="CodeGenie Workflow" style="max-width: 100%; height: auto;">
+</p>
 1. You type a prompt in the CodeGenie panel (or code editor).
 2. The extension sends it to the Flask backend.
 3. The backend routes it into **DeepSeek Coder**.
@@ -76,7 +78,7 @@ Built using simple, extensible tools — perfect for learning, hacking, or expan
 
 ## 🧭 Architecture
   <p align="center">
-  <img src="architecture.jpg" alt="CodeGenie Architecture" style="max-width: 100%; height: auto;">
+  <img src="images/newArchitecture.jpg" alt="CodeGenie Architecture" style="max-width: 100%; height: auto;">
 </p>
 
 ## 🔍 Highlights from DeepSeek Coder
