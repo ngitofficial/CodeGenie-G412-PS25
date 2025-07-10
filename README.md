@@ -102,9 +102,12 @@ This makes it ideal for VS Code extensions and real-time coding assistance.
 
 ## 👩‍💻 Contributors
 
-- Rishita [View Profile](https://github.com/Rishita300)
-- Sahithya [View Profile](https://github.com/Sahithya1804)
-- Dharani [View Profile](https://github.com/Dharani-1510)
+| Name     | GitHub Profile                                |
+|----------|-----------------------------------------------|
+| Rishita  | [View Profile](https://github.com/Rishita300) |
+| Sahithya | [View Profile](https://github.com/Sahithya1804) |
+| Dharani  | [View Profile](https://github.com/Dharani-1510) |
+
 
 ## 🌱 Future Enhancements
 
