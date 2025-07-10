@@ -1,45 +1,52 @@
-# app.py
 from flask import Flask, request, jsonify
-from flask_cors import CORS
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
-print("Loading model...")
-tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/deepseek-coder-1.3b-instruct")
-model = AutoModelForCausalLM.from_pretrained("deepseek-ai/deepseek-coder-1.3b-instruct")
-model.to("cpu")
-print("Model loaded.")
+app = Flask(_name_)
 
-app = Flask(__name__)
-CORS(app)
+MODEL_NAME = "deepseek-ai/deepseek-coder-1.3b-instruct"
+
+print("⏳ Loading DeepSeek-Coder 1.3B Instruct...")
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, torch_dtype=torch.float32)
+model.eval()
+print("✅ Model loaded successfully.")
+
+def extract_response(prompt: str, output: str) -> str:
+    return output[len(prompt):].strip()
 
 @app.route('/generate', methods=['POST'])
 def generate_code():
-    data = request.json
-    prompt = data.get('prompt', '')
-    intent = data.get('intent', 'generate')
+    try:
+        data = request.get_json()
+        prompt = data.get("prompt", "")
+        max_new_tokens = int(data.get("max_new_tokens", 500))
 
-    if not prompt.strip():
-        return jsonify({"code": "Prompt is empty."}), 400
+        if not prompt.strip():
+            return jsonify({"error": "Prompt is required."}), 400
 
-    input_text = f"<|User|> Please {intent} the following:\n{prompt}\n<|Assistant|>"
-    inputs = tokenizer(input_text, return_tensors="pt").to("cpu")
+        print(f"[⚡] Generating for prompt (length {len(prompt)} chars)...")
 
-    with torch.no_grad():
-        outputs = model.generate(
-            **inputs,
-            max_new_tokens=512,
-            temperature=0.7,
-            top_p=0.9,
-            do_sample=True,
-            pad_token_id=tokenizer.eos_token_id,
-            eos_token_id=tokenizer.eos_token_id
-        )
+        inputs = tokenizer(prompt, return_tensors="pt")
 
-    output_text = tokenizer.batch_decode(outputs, skip_special_tokens=True)[0]
-    result = output_text.split("<|Assistant|>")[-1].strip()
+        with torch.no_grad():
+            outputs = model.generate(
+                **inputs,
+                max_new_tokens=max_new_tokens,
+                temperature=0.7,
+                top_p=0.95,
+                do_sample=True,
+                pad_token_id=tokenizer.eos_token_id
+            )
 
-    return jsonify({"code": result})
+        decoded_output = tokenizer.decode(outputs[0], skip_special_tokens=True)
+        cleaned = extract_response(prompt, decoded_output)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+        return jsonify({ "completion": cleaned })
+
+    except Exception as e:
+        print("❌ Error:", str(e))
+        return jsonify({"error": str(e)}), 500
+
+if _name_ == '_main_':
+    app.run(debug=True,host='0.0.0.0', port=8000)
