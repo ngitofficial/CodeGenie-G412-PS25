@@ -40,7 +40,7 @@ Whether you’re **learning**, **prototyping**, or **shipping**, CodeGenie speed
 
 📎 **Workflow:**
 <p align="center">
-  <img src="images/workflow.png" alt="CodeGenie Workflow" style="max-width: 100%; height: auto;">
+  <img src="images/workflow.jpg" alt="CodeGenie Workflow" style="max-width: 100%; height: auto;">
 </p>
 1. You type a prompt in the CodeGenie panel (or code editor).
 2. The extension sends it to the Flask backend.
