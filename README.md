@@ -34,7 +34,6 @@ Whether you’re **learning**, **prototyping**, or **shipping**, CodeGenie speed
 | 🖼️ UI             | WebView (HTML + JS + CSS)            |
 | 🧠 Backend        | Python Flask                         |
 | 🤖 AI Model       | DeepSeek Coder 1.3B Instruct         |
-| ⚡ Acceleration   | Local GPU (NVIDIA RTX 4090)          |
 
 ---
 
@@ -103,9 +102,9 @@ This makes it ideal for VS Code extensions and real-time coding assistance.
 
 ## 👩‍💻 Contributors
 
-- [Rishita](https://github.com/Rishita300)
-- [Sahithya](https://github.com/Sahithya1804)
-- [Dharani](https://github.com/Dharani-1510)
+- Rishita [View Profile](https://github.com/Rishita300)
+- Sahithya[View Profile](https://github.com/Sahithya1804)
+- Dharani[View Profile](https://github.com/Dharani-1510)
 
 ## 🌱 Future Enhancements
 
