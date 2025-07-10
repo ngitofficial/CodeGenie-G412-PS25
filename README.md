@@ -93,11 +93,12 @@ This makes it ideal for VS Code extensions and real-time coding assistance.
 
 ## 🎥 Milestone Videos
 
-| Name     | Milestone 1                                 | Milestone 2 | PPT                                                      |
-|----------|---------------------------------------------|-------------|-----------------------------------------------------------|
-| Rishita  | [View](https://drive.google.com/file/d/1bTwDQSmYYd9vbuuYqLhpiTxREzWEEck9/view) |[View](https://youtu.be/NEFnJvLpIK0)|[📄](https://1drv.ms/p/c/64e6398f94b36e71/Ed9euvhtG9RFoVDY9lFeC7sBon2594hXGyYc6icS5T4Org?e=pV8y1I)|
-| Sahithya | [View](https://drive.google.com/file/d/1mJbF7ozxCLQqvw7FyljnopEK5JDOJiM8/view) | - |  |
-| Dharani  | [View](https://drive.google.com/file/d/18MQOjsWTWK4gLkTqF9GcNsz8dPn5Kjnb/view) | - | |
+| Name     | Milestone 1                                 | Milestone 2                                   | PPT 1                                                                                                             | PPT 2 |
+|----------|---------------------------------------------|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------|-------|
+| Rishita  | [View](https://drive.google.com/file/d/1bTwDQSmYYd9vbuuYqLhpiTxREzWEEck9/view) | [View](https://youtu.be/NEFnJvLpIK0)           |[📄1️⃣](https://1drv.ms/p/c/64e6398f94b36e71/EUeRdcfEg4pBumnGlw3hc1IB1qlq3d6bifZdDE8pqWGKOg?e=ymoaVV)| [📄2️⃣](https://1drv.ms/p/c/64e6398f94b36e71/Ed9euvhtG9RFoVDY9lFeC7sBon2594hXGyYc6icS5T4Org?e=pV8y1I)|
+| Sahithya | [View](https://drive.google.com/file/d/1mJbF7ozxCLQqvw7FyljnopEK5JDOJiM8/view) | -                                             | -                                                                                                                | -     |
+| Dharani  | [View](https://drive.google.com/file/d/18MQOjsWTWK4gLkTqF9GcNsz8dPn5Kjnb/view) | -                                             | -                                                                                                                | -     |
+
 
 
 ## 👩‍💻 Contributors
