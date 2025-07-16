@@ -34,12 +34,13 @@ Whether you’re **learning**, **prototyping**, or **shipping**, CodeGenie speed
 | 🖼️ UI             | WebView (HTML + JS + CSS)            |
 | 🧠 Backend        | Python Flask                         |
 | 🤖 AI Model       | DeepSeek Coder 1.3B Instruct         |
-| ⚡ Acceleration   | Local GPU (NVIDIA RTX 4090)          |
 
 ---
 
 📎 **Workflow:**
-
+<p align="center">
+  <img src="images/workflow.jpg" alt="CodeGenie Workflow" style="max-width: 100%; height: auto;">
+</p>
 1. You type a prompt in the CodeGenie panel (or code editor).
 2. The extension sends it to the Flask backend.
 3. The backend routes it into **DeepSeek Coder**.
@@ -76,7 +77,7 @@ Built using simple, extensible tools — perfect for learning, hacking, or expan
 
 ## 🧭 Architecture
   <p align="center">
-  <img src="architecture.jpg" alt="CodeGenie Architecture" style="max-width: 100%; height: auto;">
+  <img src="images/newArchitecture.jpg" alt="CodeGenie Architecture" style="max-width: 100%; height: auto;">
 </p>
 
 ## 🔍 Highlights from DeepSeek Coder
@@ -92,15 +93,22 @@ This makes it ideal for VS Code extensions and real-time coding assistance.
 
 ## 🎥 Milestone Videos
 
-RISHITA - [View](https://drive.google.com/file/d/1bTwDQSmYYd9vbuuYqLhpiTxREzWEEck9/view)<br>
-SAHITHYA - [View](https://drive.google.com/file/d/1mJbF7ozxCLQqvw7FyljnopEK5JDOJiM8/view)<br>
-DHARANI - [View](https://drive.google.com/file/d/18MQOjsWTWK4gLkTqF9GcNsz8dPn5Kjnb/view)
+| Name     | Milestone 1                                 | Milestone 2                                   | PPT 1                                                                                                             | PPT 2 |
+|----------|---------------------------------------------|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------|-------|
+| Rishita  | [View](https://drive.google.com/file/d/1bTwDQSmYYd9vbuuYqLhpiTxREzWEEck9/view) | [View](https://youtu.be/NEFnJvLpIK0)           |[📄1️⃣](https://1drv.ms/p/c/64e6398f94b36e71/EUeRdcfEg4pBumnGlw3hc1IB1qlq3d6bifZdDE8pqWGKOg?e=ymoaVV)| [📄2️⃣](https://1drv.ms/p/c/64e6398f94b36e71/Ed9euvhtG9RFoVDY9lFeC7sBon2594hXGyYc6icS5T4Org?e=pV8y1I)|
+| Sahithya | [View](https://drive.google.com/file/d/1mJbF7ozxCLQqvw7FyljnopEK5JDOJiM8/view) |[View](https://youtu.be/6a_c913-Xc8)| -                                                                                                                | -     |
+| Dharani  | [View](https://drive.google.com/file/d/18MQOjsWTWK4gLkTqF9GcNsz8dPn5Kjnb/view) |[View](https://youtu.be/oE-8C0ZWbac)| -                                                                                                                | -     |
+
+
 
 ## 👩‍💻 Contributors
 
-- Rishita
-- Sahithya
-- Dharani
+| Name     | GitHub Profile                                |
+|----------|-----------------------------------------------|
+| Rishita  | [View Profile](https://github.com/Rishita300) |
+| Sahithya | [View Profile](https://github.com/Sahithya1804) |
+| Dharani  | [View Profile](https://github.com/Dharani-1510) |
+
 
 ## 🌱 Future Enhancements
 
